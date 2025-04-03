@@ -21,7 +21,7 @@ import java.text.NumberFormat;
  */
 
 @SuppressLint("ViewConstructor")
-public class CLHalfDialChartView extends View {
+public class GaugeChart extends View {
     private final Paint backgroundPaint = new Paint();
     private final Paint progressPaint = new Paint();
     private final Paint progressBgPaint = new Paint();
@@ -51,7 +51,7 @@ public class CLHalfDialChartView extends View {
     private final int iDialWidth = 55;
 
 
-    public CLHalfDialChartView(Context context) {
+    public GaugeChart(Context context) {
         super(context);
         this.numberOfIndicators = 5;
         this.maxValue = (intValue % 2 == 0) ? intValue : intValue + 1;
