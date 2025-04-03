@@ -1,5 +1,6 @@
 # Graph
 
+This is Basic Half Dial or Half Guague view, handle as per your requirements.
 
 class usage:
 
