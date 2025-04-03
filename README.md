@@ -20,3 +20,6 @@ class usage:
         clHalfDialChartView.setBackgroundColor(Color.WHITE);
         clMainScroll.addView(clHalfDialChartView);
         setContentView(clMainScroll);
+
+
+![CLHalfDialChartView Example](https://github.com/Rameshkumarpolavarapu/Graph/blob/main/HalfDial%20Graph.png)
